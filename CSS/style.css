@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+label{ color:red;}
+input[type = "radio"]{ display:none;}
+.clasificacion{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  
+}
+label:hover{color:orange;}
+label:hover ~ label{color:orange;}
+input[type = "radio"]:checked ~ label{color:orange;}
+p{
+    text-align: justify;
+}
+header{
+    background: #29DEC3;
+}
+nav{
+    background-color: red;
+}
+table{
+    border: solid;
+}
+.calif{
+    font-size: 50px;
+}
+.wrapper {
+    min-height: calc(100% - 4rem);
+  }
+#piepag{
+    
+    background-color: #F3EC0C;
+}
